@@ -1,0 +1,53 @@
+# ============================================
+# NexT 主题覆盖配置 (_config.next.yml)
+# 站点 _config.yml 的 theme 已设为 next
+# ============================================
+
+# 外观方案：Gemini 双栏
+scheme: Gemini
+
+# 菜单
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+# 深色模式（默认 true）
+darkmode: true
+
+# 代码块复制按钮
+codeblock:
+  copy_button:
+    enable: true
+    style: flat
+
+# 阅读进度条
+reading_progress:
+  enable: true
+
+# 返回顶部显示百分比
+back2top:
+  enable: true
+  scrollpercent: true
+
+# MathJax 公式
+math:
+  mathjax:
+    enable: true
+    tags: none
+
+# 不蒜子访问量
+busuanzi_count:
+  enable: true
+  total_visitors: true
+  total_views: true
+  post_views: true
+
+# 本地搜索（依赖 hexo-generator-searchdb）
+local_search:
+  enable: true
+  top_n_per_article: 1
+  unescape: false
+  preload: false
